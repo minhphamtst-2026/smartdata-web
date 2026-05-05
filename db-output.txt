@@ -1,0 +1,65 @@
+Found D199G: [
+  {
+    "id": "DqpnCZ7Sy7muzrwGVFI5",
+    "network": "vinaphone",
+    "registrationSyntax": "D199G",
+    "categoryId": "PwwIHAaRpnp7lKP6LH0j",
+    "active": true,
+    "createdAt": "2026-04-28T10:14:39.785Z",
+    "registerButtonText": "",
+    "description": "",
+    "highlightPromo": "",
+    "name": "D199G",
+    "badge": "",
+    "price": 199000,
+    "dataAmount": "",
+    "validity": "30 Ngày",
+    "featured": false,
+    "updatedAt": "2026-04-28T10:14:39.785Z",
+    "smsAmount": "",
+    "voiceMinutes": "",
+    "registrationNumber": "888",
+    "longDescription": "**1. Chu kỳ gói cước:**\r\n30 ngày.\r\n\r\n**2. Ưu đãi gói cước:**\r\n- 8GB Data/ngày (hết dung lượng dừng truy cập).\r\n- 250 phút gọi ngoại mạng (di động/cố định ngoại mạng + không bao gồm cố định/Gphone VNPT).\r\n- 2000 phút gọi di động nội mạng.\r\n\r\n**3. Điều kiện đăng ký gói cước:**\r\n- Thuê bao trả trước hòa mạng mới: đăng ký gói trong vòng 30 ngày kể từ ngày hòa mạng.\r\n- Thuê bao hiện hữu: theo điều kiện tiêu dùng được đăng ký gói.\r\n\r\n**4. Gói cước gia hạn tự động.**\r\n\r\n**5. Kiểm tra dung lượng còn lại của gói cước:**\r\n- Soạn tin: TRACUU D199G gửi 900.\r\n\r\n**6. Hủy gói cước:**\r\n- Soạn tin: HUY D199G gửi 900.\r\n\r\n**7. Thời gian không chuyển mạng giữ số:**\r\n- 540 ngày tính từ ngày thuê bao đăng ký gói cước thành công.\r\n\r\n**8. Tổng đài hỗ trợ khách hàng:**\r\n18001091\r\n(miễn phí)."
+  },
+  {
+    "id": "UFAmgvDDInWreLDxRjFg",
+    "order": 1,
+    "price": 400000,
+    "dataAmount": "8GB/Ngày",
+    "featured": false,
+    "validity": "30 ngày",
+    "updatedAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1777714174,
+      "nanoseconds": 121000000
+    },
+    "voiceMinutes": "2.000 phút gọi Nội mạng + 250 phút gọi Ngoại mạng",
+    "registrationNumber": "888",
+    "longDescription": "**1. Ưu đãi gói cước:**\n\n- Tặng 8GB/ngày, hết dừng truy cập.\n- Miễn phí 2000p Nội Mạng và 250p Ngoại Mạng.\n\n**2. Gia hạn gói cước:**\n\n- Sim đã miễn phí tháng đầu, chu kỳ 30 ngày tính từ ngày kích hoạt.\n- Gói cước tự động gia hạn với giá 199.000đ/30ngày.\n\n**3. Cách kiểm tra dung lượng:**\n\n- Soạn Data gửi 888.\n- Tải app My VNPT.\n\n**4. Tổng đài hỗ trợ:**\n\n- 18001091 (miễn phí).\n\n*Gói sim Vinaphone dài ngày khác:*\nNgoài Sim Và Esim 4G Vinaphone D199G bạn có thể tham khảo sim [Vinaphone D169G Tặng 7GB/Ngày](https://simgicungco.vn/sim-va-esim-4g-vinaphone-d169g-tang-7gb-ngay).",
+    "network": "vinaphone",
+    "registrationSyntax": "D199G",
+    "categoryId": "gOWPvRcHgarOfS5Rfswk",
+    "active": true,
+    "createdAt": {
+      "type": "firestore/timestamp/1.0",
+      "seconds": 1777714174,
+      "nanoseconds": 121000000
+    },
+    "registerButtonText": "MUA NGAY",
+    "isSim": true,
+    "highlightPromo": "FREE tháng đầu",
+    "name": "D199G",
+    "badge": "HOT"
+  }
+]
+Categories: [
+  "Gói Dài Ngày (goi-dai-ngay) (ID: 8rkTXF1dz1oY6BEZKdXE)",
+  "Gói Cước Tháng (goi-thang) (ID: GN88zJpOoH7rnq3uZxVG)",
+  "Gói Combo (combo) (ID: PwwIHAaRpnp7lKP6LH0j)",
+  "SIM Vinaphone (sim-vinaphone) (ID: RGA9FR3XX8c780pXPRHa)",
+  "Gói Data (data) (ID: X0OxPoQ0WxEU7jvzUF7J)",
+  "Gói Thoại (thoai) (ID: YMd5xN0IEOp9K8FKy5Q5)",
+  "SIM Vinaphone (sim-vinaphone) (ID: gOWPvRcHgarOfS5Rfswk)",
+  "Gói Cước Ngày (goi-ngay) (ID: nlxaDt6N5bHvVokU6m1p)",
+  "Gói Cước Ngày (goi-ngay) (ID: uxBmOWfq4tJPbBuZRweU)"
+]

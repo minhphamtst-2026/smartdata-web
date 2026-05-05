@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #EE0033; /* Viettel Red */
+  --color-primary-dark: #CC0022;
+  --color-secondary: #FF6600; /* Viettel Orange */
+  --color-secondary-dark: #E65C00;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply text-slate-900 antialiased;
+  }
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-dark text-white font-semibold py-2 px-4 rounded-full transition-colors duration-200 shadow-md;
+}
+
+.btn-secondary {
+  @apply bg-secondary hover:bg-secondary-dark text-white font-semibold py-2 px-4 rounded-full transition-colors duration-200 shadow-md;
+}
+
+.card-hover {
+  @apply transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.markdown-body h1 {
+  @apply text-2xl font-bold mb-4 mt-6 text-slate-900;
+}
+.markdown-body h2 {
+  @apply text-xl font-bold mb-3 mt-5 text-slate-800;
+}
+.markdown-body h3 {
+  @apply text-lg font-bold mb-2 mt-4 text-slate-800;
+}
+.markdown-body p {
+  @apply mb-4 leading-relaxed whitespace-pre-wrap;
+}
+.markdown-body ul {
+  @apply list-disc list-inside mb-4 space-y-1;
+}
+.markdown-body ol {
+  @apply list-decimal list-inside mb-4 space-y-1;
+}
+.markdown-body strong {
+  @apply font-bold text-slate-900;
+}
+.markdown-body a {
+  @apply text-primary hover:underline;
+}

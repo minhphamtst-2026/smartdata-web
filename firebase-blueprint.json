@@ -1,0 +1,86 @@
+{
+  "entities": {
+    "Package": {
+      "title": "Package",
+      "description": "A telecom data/voice package",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Package name (e.g. ST90K)" },
+        "network": { "type": "string", "enum": ["viettel", "vinaphone", "mobifone"], "description": "Network provider" },
+        "price": { "type": "number", "description": "Package price in VND" },
+        "dataAmount": { "type": "string", "description": "Amount of data (e.g. 30GB)" },
+        "voiceMinutes": { "type": "string", "description": "Voice minutes included" },
+        "smsAmount": { "type": "string", "description": "SMS amount included" },
+        "validity": { "type": "string", "description": "Validity period (e.g. 30 days)" },
+        "description": { "type": "string", "description": "Detailed description" },
+        "categoryId": { "type": "string", "description": "Reference to the category ID" },
+        "registrationSyntax": { "type": "string", "description": "SMS content to register (e.g. ST90K)" },
+        "registrationNumber": { "type": "string", "description": "SMS shortcode (e.g. 191, 1543, 9084)" },
+        "badge": { "type": "string", "description": "e.g. HOT, NEW, MOST SELECTED" },
+        "featured": { "type": "boolean", "description": "Whether to show in featured section" },
+        "active": { "type": "boolean", "description": "Whether the package is active" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "isSim": { "type": "boolean", "description": "True if the package is a SIM product" }
+      },
+      "required": ["name", "price", "categoryId", "registrationSyntax", "network", "registrationNumber"]
+    },
+    "Category": {
+      "title": "Category",
+      "description": "Category of packages (Data, Combo, etc.)",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "slug": { "type": "string" },
+        "description": { "type": "string" },
+        "active": { "type": "boolean" },
+        "order": { "type": "number" }
+      },
+      "required": ["name", "slug"]
+    },
+    "SiteConfig": {
+      "title": "Site Configuration",
+      "description": "Global settings for the website",
+      "type": "object",
+      "properties": {
+        "bannerTitle": { "type": "string" },
+        "bannerSubtitle": { "type": "string" },
+        "bannerImageUrl": { "type": "string" },
+        "registrationNumber": { "type": "string", "description": "SMS shortcode (e.g. 191)" },
+        "footerText": { "type": "string" },
+        "contactPhone": { "type": "string" }
+      }
+    },
+    "MenuItem": {
+      "title": "Menu Item",
+      "description": "Navigation menu item",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string" },
+        "parentId": { "type": "string", "description": "Null for top level" },
+        "order": { "type": "number" },
+        "active": { "type": "boolean" }
+      },
+      "required": ["title", "order"]
+    }
+  },
+  "firestore": {
+    "packages": {
+      "schema": "Package",
+      "description": "List of telecom packages"
+    },
+    "categories": {
+      "schema": "Category",
+      "description": "Package categories"
+    },
+    "config": {
+      "schema": "SiteConfig",
+      "description": "Global configuration"
+    },
+    "menus": {
+      "schema": "MenuItem",
+      "description": "Navigation menus"
+    }
+  }
+}
