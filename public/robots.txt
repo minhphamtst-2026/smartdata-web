@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://smartdata.vn/sitemap.xml
+# Trang này đã chuyển sang smartdata.vn
+# Website mới: https://smartdata.vn
